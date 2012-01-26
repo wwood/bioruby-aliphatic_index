@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "bio-aliphatic_index"
   gem.homepage = "http://github.com/wwood/bioruby-aliphatic_index"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A simple biogem that allows computation of the aliphatic index of a protein}
+  gem.description = %Q{A simple biogem that allows computation of the aliphatic index of a protein}
   gem.email = "donttrustben near gmail.com"
   gem.authors = ["Ben J Woodcroft"]
   # dependencies defined in Gemfile

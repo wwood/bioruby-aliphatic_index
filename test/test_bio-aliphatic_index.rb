@@ -1,7 +1,8 @@
 require 'helper'
 
 class TestBioAliphaticIndex < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  should "aliphatic" do
+    assert_equal 71.33, (Bio::Sequence::AA.new('MVKSYDRYEYEDCLGIVNSKSSNCVFLNNA').aliphatic_index*100).round.to_f/100 
+    assert_equal 0.0, Bio::Sequence::AA.new('M').aliphatic_index
   end
 end

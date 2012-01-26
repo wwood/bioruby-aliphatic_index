@@ -1,6 +1,17 @@
 = bio-aliphatic_index
 
-Description goes here.
+A simple biogem that implements Bio::Sequence::AA#aliphatic index according to the formula presented in
+
+J Biochem. 1980 Dec;88(6):1895-8.
+Thermostability and aliphatic index of globular proteins.
+Ikai A.
+http://www.ncbi.nlm.nih.gov/pubmed/7462208
+
+For example:
+
+    Bio::Sequence::AA.new('MVKSYDRYEYEDCLGIVNSKSSNCVFLNNA').aliphatic_index #=> 71.33333
+
+
 
 == Contributing to bio-aliphatic_index
  
